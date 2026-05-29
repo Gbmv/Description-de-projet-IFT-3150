@@ -21,8 +21,6 @@ title: Vue d'ensemble du projet
 
 ## Description du projet
 
-> :bulb: N'oubliez pas d'effacer ou mettre en commentaires les notes (`>`) en début de section
-
 ### Contexte
 La Fédération des astronomes amateurs du Québec (FAAQ) regroupe 26 clubs membres répartis dans 15 régions du Québec, pour environ 2000 astronomes amateurs, membres de clubs ou membres individuels. .
 
