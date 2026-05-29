@@ -1,0 +1,1065 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Template de site web pour le cours IFT3150">
+      
+      
+        <meta name="author" content="Louis-Edouard Lafontant">
+      
+      
+        <link rel="canonical" href="https://ift3150-template.github.io/analyse/">
+      
+      
+        <link rel="prev" href="../suivi/">
+      
+      
+        <link rel="next" href="../realisation/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Études préliminaires - Site de suivi IFT3150</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#etudes-preliminaires" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href=".." title="Site de suivi IFT3150" class="md-header__button md-logo" aria-label="Site de suivi IFT3150" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Site de suivi IFT3150
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Études préliminaires
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/ift3150-template/ift3150-template.github.io" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ift3150-template
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Vue d'ensemble
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../suivi/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Suivi
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Études préliminaires
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../realisation/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Réalisation
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../evaluation/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Évaluation
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Site de suivi IFT3150" class="md-nav__button md-logo" aria-label="Site de suivi IFT3150" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Site de suivi IFT3150
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/ift3150-template/ift3150-template.github.io" title="Aller au dépôt" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    ift3150-template
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vue d'ensemble
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../suivi/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Suivi
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Études préliminaires
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Études préliminaires
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure-suggeree" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure suggérée
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Structure suggérée">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comprehension-du-probleme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compréhension du problème
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyse-des-solutions-ou-approches-existantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyse des solutions ou approches existantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes techniques
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-humaines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes humaines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-organisationnelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes organisationnelles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-liees-a-la-securite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes liées à la sécurité
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-liees-a-la-migration-des-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes liées à la migration des données
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-temporelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes temporelles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#explorations-techniques-ou-conceptuelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Explorations techniques ou conceptuelles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choix-retenus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choix retenus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Références
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../realisation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Réalisation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../evaluation/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Évaluation
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#structure-suggeree" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Structure suggérée
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Structure suggérée">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#comprehension-du-probleme" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Compréhension du problème
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyse-des-solutions-ou-approches-existantes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Analyse des solutions ou approches existantes
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-techniques" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes techniques
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-humaines" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes humaines
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-organisationnelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes organisationnelles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-liees-a-la-securite" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes liées à la sécurité
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-liees-a-la-migration-des-donnees" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes liées à la migration des données
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contraintes-temporelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Contraintes temporelles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#explorations-techniques-ou-conceptuelles" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Explorations techniques ou conceptuelles
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#choix-retenus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Choix retenus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#references" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Références
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<style>
+    @media screen and (min-width: 76em) {
+        .md-sidebar--primary {
+            display: none !important;
+        }
+    }
+</style>
+
+<h1 id="etudes-preliminaires">Études préliminaires<a class="headerlink" href="#etudes-preliminaires" title="Permanent link">&para;</a></h1>
+<blockquote>
+<p><img alt="💡" class="emojione" src="https://cdnjs.cloudflare.com/ajax/libs/emojione/2.2.7/assets/png/1f4a1.png" title=":bulb:" /> Cette page sert à documenter les recherches, analyses et explorations réalisées avant ou durant le projet
+Elle ne remplace pas le rapport final, mais permet de conserver une trace de votre démarche et des réflexions ayant guidé le projet.    </p>
+</blockquote>
+<h2 id="structure-suggeree">Structure suggérée<a class="headerlink" href="#structure-suggeree" title="Permanent link">&para;</a></h2>
+<p>La structure suivante est donnée à titre indicatif.  </p>
+<blockquote>
+<p>Vous pouvez l’adapter selon la nature de votre projet.&gt;</p>
+</blockquote>
+<h3 id="comprehension-du-probleme">Compréhension du problème<a class="headerlink" href="#comprehension-du-probleme" title="Permanent link">&para;</a></h3>
+<p>La Fédération des astronomes amateurs du Québec (FAAQ) regroupe plusieurs clubs membres répartis dans différentes régions du Québec. Elle doit gérer des membres individuels, des membres associés à des clubs, des abonnements, des communications, des paiements et des accès à certains services numériques. Actuellement, ces besoins sont couverts par plusieurs plateformes distinctes. Certaines servent à gérer les adhésions, d’autres les communications, les inscriptions à des événements, les paiements ou l’accès à l’espace membre du site web. </p>
+<p>Cette fragmentation complique la gestion administrative, car les données ne sont pas toujours synchronisées entre les différents outils. Le problème principal est donc l’absence d’un système centralisé permettant de gérer efficacement les membres, les clubs, les abonnements, les paiements et les accès numériques. Cette situation entraîne des tâches manuelles, des coûts récurrents, des risques d’erreurs et une dépendance envers plusieurs services externes. </p>
+<p>Le projet vise à répondre à ce besoin en développant une plateforme interne, plus cohérente avec la structure de la FAAQ et plus adaptée à une organisation composée d’une fédération et de plusieurs clubs autonomes.</p>
+<h3 id="analyse-des-solutions-ou-approches-existantes">Analyse des solutions ou approches existantes<a class="headerlink" href="#analyse-des-solutions-ou-approches-existantes" title="Permanent link">&para;</a></h3>
+<p>Plusieurs types de solutions peuvent être envisagés pour gérer des membres et des abonnements : plateformes commerciales de gestion d’associations, extensions WordPress, systèmes de paiement externes, outils d’infolettres ou solutions développées sur mesure. Les solutions existantes présentent certains avantages. Elles peuvent offrir une interface déjà disponible, des fonctionnalités de base pour la gestion des membres et une mise en service relativement rapide. </p>
+<p>Cependant, elles présentent aussi des limites importantes dans le contexte de la FAAQ. Les principales limites observées sont : 
+- difficulté à gérer une structure fédération-clubs ; - personnalisation parfois limitée ; 
+- coûts récurrents élevés ; 
+- dépendance envers des fournisseurs externes ; 
+- intégration incomplète avec le site web existant ; 
+- synchronisation manuelle de certaines données ; - contrôle limité sur la base de données ; 
+- difficulté à adapter la solution aux besoins futurs.</p>
+<p>Certaines solutions du marché peuvent répondre partiellement aux besoins, mais elles ne semblent pas offrir toute la flexibilité nécessaire pour gérer les membres, les clubs, les abonnements multiples, les privilèges d’accès, les paiements et les rapports selon la logique propre à la FAAQ. Le développement interne apparaît donc comme une approche pertinente, à condition que le projet soit structuré de manière progressive, sécurisée et maintenable.</p>
+<h3 id="contraintes-techniques">Contraintes techniques<a class="headerlink" href="#contraintes-techniques" title="Permanent link">&para;</a></h3>
+<p>La plateforme devra être conçue de manière sécurisée, fiable et évolutive. Elle devra permettre la gestion de plusieurs types d’utilisateurs, tout en limitant l’accès aux données sensibles selon le rôle de chaque personne.</p>
+<p>Les principales contraintes techniques sont :</p>
+<ul>
+<li>mettre en place une authentification sécurisée ;</li>
+<li>gérer les rôles et les privilèges des utilisateurs ;</li>
+<li>séparer clairement les responsabilités entre les microservices ;</li>
+<li>protéger les renseignements personnels des membres ;</li>
+<li>permettre la communication entre les services au moyen d’API ;</li>
+<li>intégrer éventuellement une passerelle de paiement externe ;</li>
+<li>éviter le stockage de données bancaires sensibles en clair ;</li>
+<li>prévoir des tests unitaires, des tests d’API avec Bruno et des tests automatisés d’intégration avec MakeMake.</li>
+</ul>
+<h3 id="contraintes-humaines">Contraintes humaines<a class="headerlink" href="#contraintes-humaines" title="Permanent link">&para;</a></h3>
+<p>Le projet implique plusieurs personnes ayant des profils différents : développeurs, collaborateurs techniques, responsables de la FAAQ, superviseur académique et étudiants. Il sera donc important de maintenir une documentation claire afin que chaque membre de l’équipe puisse comprendre l’état du projet, les décisions prises et les prochaines étapes.</p>
+<p>Des rencontres hebdomadaires seront prévues afin de présenter les avancées, de discuter des difficultés rencontrées et de clarifier certains aspects plus spécifiques, comme l’architecture, la sécurité, les tests, les besoins fonctionnels ou l’organisation des microservices.</p>
+<p>Une attention particulière devra également être accordée aux utilisateurs finaux de la plateforme. Une partie du public de la FAAQ peut être composée de personnes plus âgées ou moins familières avec les outils numériques. Cette réalité devra influencer la conception de l’interface, qui devra rester simple, lisible et intuitive. Les parcours importants, comme la création d’un compte, la modification des informations personnelles, le renouvellement d’un abonnement ou le paiement, devront être faciles à comprendre et ne pas comporter trop d’étapes inutiles.</p>
+<h3 id="contraintes-organisationnelles">Contraintes organisationnelles<a class="headerlink" href="#contraintes-organisationnelles" title="Permanent link">&para;</a></h3>
+<p>La plateforme devra respecter la structure de la FAAQ, qui repose sur trois niveaux principaux :</p>
+<ol>
+<li><strong>Membre</strong> : gestion du profil personnel, des informations familiales et des abonnements.</li>
+<li><strong>Club</strong> : gestion des membres du club, des types d’abonnement, des tarifs, des rappels et des rapports.</li>
+<li><strong>Fédération</strong> : gestion globale des clubs, des membres, des privilèges et de la supervision du système.</li>
+</ol>
+<p>Cette organisation impose une gestion précise des accès. Un club doit pouvoir gérer ses propres membres sans accéder aux données des autres clubs, tandis que la fédération doit disposer d’une vue plus globale du système.</p>
+<h3 id="contraintes-liees-a-la-securite">Contraintes liées à la sécurité<a class="headerlink" href="#contraintes-liees-a-la-securite" title="Permanent link">&para;</a></h3>
+<p>La plateforme manipulera des renseignements personnels liés aux membres, aux clubs et aux abonnements. La sécurité devra donc être intégrée dès la conception du système.</p>
+<p>Les besoins principaux liés à la sécurité sont :</p>
+<ul>
+<li>appliquer le principe du moindre privilège ;</li>
+<li>limiter la collecte de données aux informations nécessaires ;</li>
+<li>protéger les données sensibles ;</li>
+<li>contrôler l’accès aux informations selon le rôle de l’utilisateur ;</li>
+<li>séparer les données d’affaires, les données d’authentification et les données de paiement ;</li>
+<li>utiliser des jetons de paiement plutôt que de stocker des numéros de carte de crédit ;</li>
+<li>prévoir une journalisation suffisante pour assurer le suivi des accès sans surcollecter de données.</li>
+</ul>
+<h3 id="contraintes-liees-a-la-migration-des-donnees">Contraintes liées à la migration des données<a class="headerlink" href="#contraintes-liees-a-la-migration-des-donnees" title="Permanent link">&para;</a></h3>
+<p>La FAAQ possède déjà des données sur ses membres, ses clubs et ses abonnements. Il faudra donc prévoir une stratégie de migration vers la nouvelle plateforme.</p>
+<p>Cette migration devra permettre de transférer les données utiles sans créer de doublons, de pertes d’informations ou d’incohérences. Une phase de validation sera nécessaire afin de vérifier que les membres, les clubs, les statuts d’abonnement et les informations administratives sont correctement transférés.</p>
+<p>Une approche progressive pourrait être utilisée, par exemple avec un projet pilote auprès de quelques clubs avant une migration complète.</p>
+<h3 id="contraintes-temporelles">Contraintes temporelles<a class="headerlink" href="#contraintes-temporelles" title="Permanent link">&para;</a></h3>
+<p>Le projet est réalisé pendant la session d’été 2026. Il doit donc être organisé autour de livrables progressifs : proposition de projet, études préliminaires, documentation, réalisation technique, tests, présentation et rapport final.</p>
+<p>L’objectif n’est pas nécessairement de livrer toute la plateforme complète pendant la session, mais de contribuer à une base solide, documentée et évolutive pour la suite du développement.</p>
+<h3 id="explorations-techniques-ou-conceptuelles">Explorations techniques ou conceptuelles<a class="headerlink" href="#explorations-techniques-ou-conceptuelles" title="Permanent link">&para;</a></h3>
+<p>Les premières explorations techniques portent principalement sur l’architecture générale du système, l’organisation des microservices et les outils qui seront utilisés pour soutenir le développement et la validation du projet.</p>
+<p>L’architecture envisagée repose sur une séparation claire des responsabilités entre plusieurs services. <strong>Hauméa</strong> jouera le rôle de point d’entrée principal de la plateforme et sera responsable de l’authentification, de la validation des jetons d’accès et de la gestion des privilèges. <strong>Cérès</strong> sera responsable des données d’affaires, comme les membres, les clubs, les abonnements, les événements et les rapports. <strong>Chiron</strong> sera lié à la gestion des paiements et à l’intégration avec une passerelle de paiement externe. Enfin, <strong>MakeMake</strong> sera utilisé pour les tests automatisés d’intégration.</p>
+<p>Une première réflexion a aussi été menée sur les tests du système. Les API pourront être testées avec <strong>Bruno</strong>, afin de vérifier les requêtes, les réponses attendues, les codes de statut HTTP et certains scénarios liés à l’authentification ou aux privilèges. En complément, <strong>MakeMake</strong> permettra de créer des scénarios automatisés plus complets, afin de vérifier le comportement global de la plateforme et de réduire les risques de régression lors de l’ajout de nouvelles fonctionnalités.</p>
+<p>Les explorations conceptuelles portent également sur l’expérience utilisateur. Comme la plateforme sera utilisée par des membres ayant des niveaux variés de familiarité avec les outils numériques, l’interface devra rester simple, lisible et intuitive. Les parcours essentiels, comme la création d’un compte, la modification des informations personnelles, le renouvellement d’un abonnement ou le paiement, devront être faciles à comprendre.</p>
+<p>Enfin, la documentation du projet avec MkDocs constitue aussi une première exploration importante. Elle permet de centraliser les informations sur l’analyse, la réalisation, le suivi et l’évaluation du projet, tout en facilitant la communication entre les membres de l’équipe.</p>
+<h3 id="choix-retenus">Choix retenus<a class="headerlink" href="#choix-retenus" title="Permanent link">&para;</a></h3>
+<p>À partir des études préliminaires, plusieurs choix ont été retenus pour orienter la suite du projet.</p>
+<p>Le premier choix est de privilégier une architecture modulaire basée sur des microservices. Cette approche permet de séparer clairement les responsabilités entre les différentes composantes du système. Hauméa sera responsable de l’authentification et de la gestion des accès, Cérès prendra en charge les données d’affaires, Chiron sera lié aux paiements, et MakeMake servira aux tests automatisés d’intégration.</p>
+<p>Le deuxième choix est de commencer le développement par les fonctionnalités fondamentales, notamment la création de comptes, l’authentification et la gestion des privilèges. Ces éléments constituent la base nécessaire avant d’ajouter les fonctionnalités liées aux membres, aux clubs, aux abonnements, aux rapports et aux paiements.</p>
+<p>Le troisième choix est d’intégrer les tests dès le début du projet. Les tests unitaires permettront de vérifier certaines fonctions isolées, tandis que Bruno sera utilisé pour tester les API. MakeMake servira ensuite à créer des scénarios automatisés plus complets afin de vérifier le comportement global du système et de réduire les risques de régression.</p>
+<p>Le quatrième choix est de maintenir une documentation continue avec MkDocs. Cette documentation permettra de conserver une trace des décisions techniques, des choix d’architecture, des contraintes identifiées et de l’évolution du projet. Elle facilitera aussi la collaboration entre les membres de l’équipe.</p>
+<p>Enfin, le projet adoptera une démarche progressive, inspirée des méthodes agiles. Les rencontres hebdomadaires permettront de présenter les avancées, de discuter des difficultés rencontrées et d’ajuster les priorités lorsque nécessaire. Cette approche devrait permettre de développer une base solide, tout en gardant la solution alignée avec les besoins réels de la FAAQ.</p>
+<h3 id="references">Références<a class="headerlink" href="#references" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>Fédération des astronomes amateurs du Québec. <em>Plateforme de gestion des membres développée à l’interne — Livre blanc</em>. Document interne, 2025.</p>
+</li>
+<li>
+<p>MkDocs. <em>MkDocs Documentation</em>. Documentation utilisée pour la création du site de documentation du projet.</p>
+</li>
+<li>
+<p>Material for MkDocs. <em>Material for MkDocs Documentation</em>. Documentation utilisée pour la configuration du thème et de la navigation du site.</p>
+</li>
+<li>
+<p>Bruno. <em>Bruno Documentation</em>. Documentation utilisée pour comprendre l’utilisation de Bruno dans les tests d’API.</p>
+</li>
+<li>
+<p>Spring Boot. <em>Spring Boot Documentation</em>. Documentation utilisée pour comprendre la structure générale d’une application Spring Boot, la création d’API REST et l’organisation des composants.</p>
+</li>
+<li>
+<p><em>Spring Boot Tutorial for Beginners [2025]</em>. Tutoriel vidéo utilisé comme ressource d’introduction pour comprendre les bases de Spring Boot.</p>
+</li>
+<li>
+<p><em>Spring Boot Tutorial for Beginners | Full Course 2025</em>. Cours vidéo utilisé comme ressource complémentaire pour approfondir les notions de base de Spring Boot, notamment les contrôleurs, les services, les dépendances et la création d’API.</p>
+</li>
+<li>
+<p>Martin Fowler. <em>Microservices</em>. Référence générale utilisée pour comprendre les principes d’une architecture basée sur des microservices.</p>
+</li>
+<li>
+<p>OWASP Foundation. <em>OWASP Web Security Testing Guide</em>. Référence générale pour les bonnes pratiques liées aux tests et à la sécurité des applications web.</p>
+</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2026 <b>DIRO</b> &ndash; Template de site pour le cours IFT3150 <br>Département d'informatique et de recherche opérationnelle <br>Université de Montréal
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "..", "features": ["navigation.instant", "navigation.tabs", "navigation.sections", "navigation.expand", "navigation.top", "search.highlight", "search.suggest", "search.share", "content.tabs.link", "content.code.copy", "content.code.annotate"], "search": "../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
